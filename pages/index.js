@@ -1,12 +1,15 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import Head from "next/head";
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-   
-    <h2>Hello Next js</h2>
-    
-  )
+    <div>
+      <Head>
+        <title>Next practise-01</title>
+      </Head>
+      
+      <h2>Hello Next js</h2>
+    </div>
+  );
 }
