@@ -1,0 +1,19 @@
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px ;
+}
+.card{
+    border: 1px solid gainsboro;
+    padding: 15px 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.knwMore{
+    padding: 10px 10px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
